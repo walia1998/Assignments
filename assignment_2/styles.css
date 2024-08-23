@@ -1,0 +1,67 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+/* Pricing Section */
+.pricing-section {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+    gap: 10px;
+}
+
+/* Pricing Card */
+.pricing-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    text-align: center;
+    width: 30%;
+}
+
+.pricing-card h2 {
+    margin: 0;
+    padding: 10px 0;
+}
+
+.pricing-card p {
+    margin: 10px 0;
+}
+
+.pricing-card .price {
+    font-size: 24px;
+    color: #333;
+}
+
+.pricing-card .features {
+    list-style: none;
+    padding: 0;
+}
+
+.pricing-card .features li {
+    margin: 10px 0;
+}
+
+/* Specific Plan Styles */
+.free-plan {
+    border-top: 5px solid #4CAF50;
+}
+
+.basic-plan {
+    border-top: 5px solid #2196F3;
+}
+
+.pro-plan {
+    border-top: 5px solid #FF9800;
+}

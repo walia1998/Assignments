@@ -1,0 +1,41 @@
+.container {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    background-color: aqua;
+    font-size: 16px;
+}
+@media (max-width : 720px) {
+
+
+header {
+    grid-column: 1/ span 12;
+    background-color: blue;
+}
+nav {
+    grid-column: 1 / span 12;
+    background-color: blueviolet;
+}
+aside {
+    grid-column: 1 / span 3;
+    grid-row: 3 / span 9;
+    background-color: chartreuse;
+}
+main {
+    grid-column: 4 / span 9;
+    grid-row: 3 / span 9;
+    background-color: coral;
+}
+.ads {
+    grid-column: 1 /span 3;
+    background-color: darkmagenta;
+}
+footer {
+    grid-column: 4 /span 9;
+    background-color: goldenrod;
+}
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IRCTC Ticket Booking Page</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <header class="nav">
+            <nav class="logo">
+                <img src="/Bande_bharat/logo_1.jpg" alt="logo" class="logo_1" />
+                <img src="/Bande_bharat/logo_2.png" alt="logo" class="logo_2" />
+            </nav>
+            <nav>
+                <ul class="login_button">
+                    <a href="#" target="_blank">Ask Diksha</a>&nbsp;
+                    <a href="#" target="_blank">Contact us</a>&nbsp;
+                    <a href="#" target="_blank">alerts</a>
+                </ul>
+                <div class="button_login">
+                    <button style="background-color : orange; color: white;" class="login_buttons">Login</button>
+                    <button class="login_buttons">Register</button>
+                    <button class="login_buttons">Agent Login</button>
+                </div>
+            </nav>
+
+        </header>
+        <main>
+            <div class="content">
+                <h3>Indian Railways</h3>
+                <p><span class="green">Safety</span>&nbsp;&nbsp;<span class="orange">Security</span>&nbsp;
+                    &nbsp;<span class="blue">Punctuality</span>
+                </p>
+                <br>
+                <div class="buttons">
+                    <button class="book_button"><i class="fa-solid fa-ticket"></i>Book Ticket</button>
+                    <button class="button_12"><i class="fa-solid fa-check"></i>PNR Status</button>
+                    <button class="button_12"><i class="fa-solid fa-chart-simple"></i></i>Charts / Vacancy</button>
+                </div>
+            </div>
+            <div class="container_2">
+                <section class="form">
+                    
+                    <label for="from">from: </label>
+                    <i class="fa-solid fa-train"></i>
+                    <select id="from" name="from">
+                        <option value="volvo">Banglore</option>
+                        <option value="saab">Delhi </option>
+                        <option value="fiat">Mumbai</option>
+                        <option value="audi">Khundian</option>
+                    </select>
+                    <i class="fa-solid from fa-right-left"></i>
+
+                    
+                    <label for="To">To: </label>
+                    <i class="fa-solid fa-train"></i>
+                    <select id="To" name="To">
+                        <option value="volvo">Delhi</option>
+                        <option value="saab"> Bangalore </option>
+                        <option value="fiat">Mumbai</option>
+                        <option value="audi">Khundian</option>
+                    </select>
+                </section>
+                <section class="date_set">
+                    <label for="start"> date:</label>
+                    <i class="fa-solid fa-calendar-days"></i>
+                    <input type="date" id="start" name="trip-start" value="2024-07-22" min="2024-01-01"
+                        max="2024-12-31" />
+
+                        
+                    <label for="tatkal"> Seat Type: </label>
+                    <i class="fa-solid fa-seat-airline"></i>
+                    <select id="tatkal" name="tatkal">
+                        <option value="tatkal">Tatkal</option>
+                    </select>
+                </section>
+            </div>
+
+            <button class="green_button">Search Train <img src="/Bande_bharat/right-arrow (1).png "  class="arrow-right"/> </button>
+        </main>
+
+    </div>
+    <section class="images">
+        <img src="/Bande_bharat/wp5521988.jpg" alt="Train Image" class="view_image" />
+        <img src="/Bande_bharat/wp5521940.jpg" alt="Scenic View" class="train_image" />
+    </section>
+
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+* {
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+body {
+    background-color: rgb(7, 17, 76);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: blanchedalmond;
+    height: 300px;
+    width: 400px;
+    margin-right: 10%;
+    border-radius: 5px;
+    transition: transform 2s;
+}
+.container:hover {
+    transform: scale(1.1);
+    animation-duration: 1.5s;
+}
+
+.letsCode {
+    color: rgb(189, 77, 163);
+    display: flex;
+    /* writing-mode: vertical-rl; */
+    /* transform: rotate(180deg); */
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+}
+
+p {
+    color: red;
+}
+
+.red {
+    background-color: red;
+    color: white;
+    border-radius: 12px;
+    box-shadow: orange 5px 5px 8px;
+    border: 0;
+}

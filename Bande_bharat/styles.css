@@ -1,0 +1,141 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+.container {
+    margin: 20px;
+    padding: 20px;
+    width: 55vw;
+    
+}
+h3 {
+    margin-top: 40px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+}
+.login_button {
+    display: flex;
+    justify-content: center;
+    margin: 16px 10px 0 ;  
+}
+.button_login {
+    margin-left: 40px;
+    
+}
+.logo_1 {
+    height: 60px;
+}
+.logo_2 {
+    height: 60px;
+}
+.images img {
+    width: 85%;
+    height: auto;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+/* .promo-images {
+   width: 30vw;
+   height: 30vh;
+   padding: 0;
+   margin: 0 0 10px 10px;
+}
+
+.view_image {
+    width: 40vw;
+    padding: 0;
+}
+.train_image {
+    width: 40vw;
+    padding: 0;
+} */
+a {
+    text-decoration: none;
+}
+.green {
+    color: green;
+}
+.orange {
+    color: orange;
+}
+.blue {
+    color: blue;
+}
+.buttons {
+    margin: 5px;
+    padding: 5px;
+} 
+.book_button {
+    background-color: navy;
+    color: white;
+}
+.book_button i {
+    padding-right: 5px;
+}
+.button_12 i{
+    padding-right: 5px;
+} 
+.login_buttons {
+    border: 1px solid gray;
+    background-color: white;
+}
+.container_2 {
+    display: grid;
+    
+}
+.form {
+    display: inline-block;
+    justify-content: space-between;
+    align-content:center;
+    margin: 30px 10px;
+    padding: 10px 5px 10px 15px;
+    border: 1px solid black;
+    height:40px;
+    width: 340px;
+    border-radius: 5px;
+}
+ .from{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.date_set {
+    display: inline-block;
+    justify-content: center;
+    align-content: center;
+    margin: 30px 10px;
+    padding: 10px 5px 10px 15px;
+    border: 1px solid black;
+    height:40px;
+    width: 340px;
+    border-radius: 5px;
+}
+.green_button {
+    background-color: #47e147;
+    color: white;
+    width: 360px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .arrow-right {
+    height: 16px;
+    padding: 5px;
+    color: white;
+    
+}
+i {
+    color: orange;
+}

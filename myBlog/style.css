@@ -1,0 +1,17 @@
+div {
+    background-color: aqua;
+}
+table {
+    margin: 10px;
+    padding: 10px;
+    background-color: aquamarine;
+}
+.together {
+    margin: 10px;
+}
+h2 {
+    margin: 10px;
+}
+#lunch {
+    background-color: rgb(183, 183, 244);
+}
